@@ -1,0 +1,944 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+  }
+  
+  body {
+    background-color: #e0e1dd; /* Light neutral background */
+    color: #1b263b; /* Darker text */
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  /* Header Section */
+  
+  /* Increase the size of "Denton Tx Plumbing" */
+  .header-left h1 {
+      font-size: 4rem;  /* Increased size */
+      color: #e0e1dd;   /* Light text color */
+      font-weight: bold;
+  }
+  
+  /* Social Media Icons in the Middle */
+  .header-middle {
+      display: flex;
+      gap: 15px;
+  }
+  
+  .header-middle i {
+      font-size: 2rem;  /* Increased icon size */
+      color: #e0e1dd;   /* Light icon color */
+  }
+  
+  /* Increase the size of the phone number */
+  .header-right {
+      font-size: 1.8rem;  /* Larger size for better visibility */
+      color: #e0e1dd;
+  }
+  
+  .header-right a {
+      color: #e0e1dd;  /* Light text */
+      text-decoration: none;
+      font-size: 4rem;  /* Match the larger size */
+  }
+  
+  .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+  }
+  
+  
+  
+  /* Hero Section */
+  
+  .hero {
+      display: flex;
+      justify-content: space-between; /* Space between image and text */
+      align-items: center; /* Vertically align items */
+      padding: 60px 0; /* Adjust padding for more or less space */
+      background-color: #415a77; /* Background color of the hero section */
+  }
+  
+  .hero-content {
+      max-width: 50%; /* Adjust the width of the text container */
+  }
+  
+  .hero-content h1 {
+      font-size: 3.5rem; /* Increase the size of the main heading */
+      color: #e0e1dd; /* Light text */
+      margin-bottom: 20px; /* Space between heading and paragraph */
+  }
+  
+  .hero-content p {
+      font-size: 1.5rem; /* Increase paragraph font size */
+      color: #e0e1dd; /* Light text */
+      line-height: 1.5; /* Adjust line spacing for better readability */
+      margin-bottom: 20px; /* Add space between paragraphs */
+  }
+  
+  /* New styling for the additional hero text */
+  .hero-description {
+      font-size: 1.25rem; /* Slightly smaller than the main tagline */
+      color: #e0e1dd; /* Light text */
+      line-height: 1.8; /* Extra line spacing for better readability */
+      margin-top: 20px; /* Space between the tagline and this paragraph */
+  }
+  
+  /* Hero Boxed Text */
+  .hero-box {
+      background-color: #778da9; /* Light blue background to make it stand out */
+      padding: 20px; /* Add padding inside the box */
+      border: 2px solid #e0e1dd; /* Light border to create contrast */
+      border-radius: 10px; /* Rounded corners */
+      margin-top: 20px; /* Add space between the tagline and this box */
+      max-width: 80%; /* Limit width of the box */
+      color: #e0e1dd; /* Ensure the text remains light */
+  }
+  
+  .hero-box p {
+      font-size: 1.25rem; /* Slightly smaller than the tagline */
+      line-height: 1.8; /* Extra line spacing for better readability */
+      margin: 0; /* Remove default margin */
+  }
+  
+  
+  
+  .hero-image img {
+      max-width: 500px; /* Control the image width */
+      height: auto; /* Maintain aspect ratio */
+      margin-left: 800; /* Adjust spacing between text and image */
+      border-radius: 10px; /* Optional: Adds rounded corners to the image */
+  }
+  
+  
+  
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  /* Professional Plumbing Services Section */
+  .professional-services {
+      background-color: #e0e1dd; /* Light background */
+      padding: 50px 0;
+      text-align: center;
+  }
+  
+  .professional-services h2 {
+      font-size: 2rem;
+      color: #1b263b; /* Dark text */
+      margin-bottom: 0px;
+      font-weight: bold;
+  }
+  
+  .service-list {
+    display: flex;
+    justify-content: space-between; /* Align services horizontally */
+    flex-wrap: wrap; /* Ensure responsiveness */
+    gap: 30px;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    width: 23%;
+    height: 370px; /* Slightly increased height */
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.service-item i {
+    font-size: 3rem;
+    color: #415a77; /* Icon color */
+    margin-bottom: 15px;
+}
+
+.service-item h3 {
+    font-size: 1.5rem;
+    color: #1b263b;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 0.9rem; /* Slightly smaller font */
+    color: #415a77;
+    line-height: 1.4; /* Adjusted line height */
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align items */
+    gap: 20px; /* Space between items */
+    padding: 0 10px; /* Add padding to prevent overflow */
+}
+
+.service-item {
+    flex: 1 1 200px; /* Allow items to shrink and grow, with a minimum width */
+    max-width: 250px; /* Set a maximum width to prevent overflow */
+    margin: 0 auto; /* Center items */
+}
+
+
+
+
+
+
+  
+  /* CTA Button */
+  .cta-button {
+      background-color: #415a77;
+      color: #e0e1dd;
+      padding: 10px 20px;
+      border: none;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  }
+
+  
+  
+  .cta-button:hover {
+      background-color: #778da9;
+  }
+
+  .service-item .cta-button {
+    margin-top: auto;
+    padding: 10px 20px;
+    background-color: #415a77;
+    color: #e0e1dd;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+  
+
+  
+  /* Testimonial Section */
+  .testimonial {
+      background-color: #f5f5f5;
+      padding: 15px;
+      margin-top: 30px;
+      border-radius: 8px;
+      font-style: italic;
+      color: #415a77;
+  }
+  
+  
+  
+   
+  
+  
+  /* Header/Navigation */
+  header {
+    background-color: #0d1b2a; /* Dark header background */
+    color: #e0e1dd; /* Light text */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header a {
+    color: #e0e1dd; /* Light text for navigation links */
+    text-decoration: none;
+    padding: 0 15px;
+  }
+  
+  header a:hover {
+    color: #778da9; /* Hover effect on links */
+  }
+  
+  /* Content Sections */
+  .content-section {
+    background-color: #1b263b; /* Dark content background */
+    color: #e0e1dd; /* Light text */
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .section-light {
+    background-color: #778da9; /* Light section background */
+    color: #0d1b2a; /* Dark text */
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .section-dark {
+    background-color: #415a77; /* Medium-dark section */
+    color: #e0e1dd; /* Light text */
+    padding: 50px;
+    text-align: center;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #0d1b2a; /* Dark footer background */
+    color: #e0e1dd; /* Light text */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #e0e1dd;
+    text-decoration: none;
+    padding: 0 10px;
+  }
+  
+  footer a:hover {
+    color: #778da9;
+  }
+  
+  /* Buttons and Links */
+  .button,
+  a {
+    background-color: #778da9; /* Button background */
+    color: #e0e1dd; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .button:hover,
+  a:hover {
+    background-color: #415a77; /* Hover effect on buttons */
+  }
+  /* Our Services Section */
+  .our-services {
+      background-color: #e0e1dd; /* Light background */
+      padding: 50px 0;
+      text-align: center;
+  }
+  
+  
+  .our-services h2 {
+      font-size: 2.5rem;
+      color: #1b263b; /* Dark text */
+      margin-bottom: 40px;
+      font-weight: bold;
+  }
+  
+
+  
+  
+  
+  /* Testimonials Section */
+  .testimonial-section {
+      background-color: #1b263b; /* Dark background for contrast */
+      padding: 50px 0;
+      color: #e0e1dd;
+  }
+  
+  .testimonial-section h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+  }
+  
+  .testimonial-wrapper {
+      display: flex;
+      justify-content: space-around; /* Align testimonials horizontally */
+      text-align: center;
+      gap: 20px;
+  }
+  
+  .testimonial {
+      background-color: #415a77;
+      padding: 20px;
+      border-radius: 10px;
+      width: 30%;
+      position: relative;
+     color: #e0e1dd;
+  }
+  
+  .testimonial p {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+  }
+  
+  .testimonial h4 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+  }
+  
+  .star-rating span {
+      font-size: 1.5rem; /* Larger stars */
+      color: gold;
+  }
+  
+  
+  
+  /* Contact Section */
+  #contact {
+      padding: 50px 0;
+      background-color: #e0e1dd; /* Light background */
+      text-align: center;
+  }
+  
+  /* Footer Section */
+.site-footer {
+    background-color: #0d1b2a; /* Dark background for footer */
+    color: #e0e1dd; /* Light text */
+    padding: 40px 0;
+    border-top: 2px solid #778da9; /* Top border for separation */
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between; /* Align left and right sections */
+    align-items: center; /* Vertically align items */
+    width: 100%; /* Full width */
+    padding: 15px 20px; /* Adjust padding as needed */
+    background-color: #0d1b2a; /* Footer background color */
+    color: #e0e1dd; /* Text color */
+    box-sizing: border-box; /* Include padding in total width */
+    margin: 0; /* Remove margin */
+}
+
+.footer-left {
+    flex: 1; /* Take up remaining space */
+    text-align: left;
+}
+
+.footer-right {
+    flex-shrink: 0; /* Prevent shrinking */
+}
+
+.footer-logo {
+    height: 150px; /* Maintain original size */
+    width: auto; /* Maintain aspect ratio */
+    margin-left: auto; /* Align logo to the far right */
+}
+
+body, html {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    width: 100%; /* Ensure body takes full width */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center; /* Center all content horizontally */
+    align-items: center; /* Center content vertically */
+    width: 100%; /* Full width */
+    padding: 15px 20px; /* Adjust padding as needed */
+    background-color: #0d1b2a; /* Footer background color */
+    color: #e0e1dd; /* Text color */
+    box-sizing: border-box; /* Include padding in total width */
+    margin: 0; /* Remove any margin */
+}
+
+.footer-left {
+    text-align: center; /* Center-align the text */
+    flex: 1; /* Allow it to take up space for centering */
+}
+
+.footer-left p {
+    margin: 5px 0; /* Adjust margins for spacing */
+}
+
+.footer-right {
+    flex-shrink: 0; /* Prevent shrinking */
+    margin-left: 20px; /* Add space between text and logo */
+}
+
+.footer-logo {
+    height: 150px; /* Maintain original size */
+    width: auto; /* Maintain aspect ratio */
+}
+
+
+
+
+
+
+
+
+  
+   /* Main Section Styling */
+  .reliable-plumbing {
+      background-color: #e0e1dd; /* Light background */
+      color: #1b263b; /* Dark text */
+      padding: 60px 0;
+      text-align: left;
+  }
+  
+  /* Main Heading (H1) */
+  .reliable-plumbing h1 {
+      font-size: 2rem;
+      color: #1b263b; /* Dark blue */
+      text-align: center;
+      margin-bottom: 40px;
+      font-weight: bold;
+  }
+  
+  /* Subsection Headings (H2) */
+  .reliable-plumbing h2 {
+      font-size: 1.6rem;
+      color: #415a77; /* Mid-tone blue */
+      margin-bottom: 20px;
+      font-weight: bold;
+  }
+  
+  /* Paragraph Styling */
+  .reliable-plumbing p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      color: #415a77;
+      margin-bottom: 30px;
+  }
+  
+  /* Why Choose Us List */
+  .why-choose-us h2 {
+      font-size: 1.6rem;
+      color: #415a77;
+      margin-bottom: 20px;
+  }
+  
+  .service-list {
+      list-style-type: none;
+      padding-left: 0;
+      margin-bottom: 30px;
+  }
+  
+  .service-list li {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+  }
+  
+  .service-list li strong {
+      color: #1b263b; /* Emphasize in dark blue */
+  }
+  
+  
+
+  
+  
+  /* Other styles for the contact section or previous elements */
+  
+  /* Style for the new button under the map */
+  .service-locations-btn {
+      text-align: center; /* Center the button */
+      margin-top: 20px; /* Add space above the button */
+  }
+  
+  .service-locations-btn .button {
+      background-color: #415a77; /* Button background color */
+      color: #e0e1dd; /* Button text color */
+      padding: 10px 20px;
+      border: none;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  }
+  
+  .service-locations-btn .button:hover {
+      background-color: #778da9; /* Hover color for the button */
+  }
+  
+  
+  /* General responsive styling for header */
+@media (max-width: 768px) {
+    .header-left h1 {
+        font-size: 2rem; /* Reduce header text size */
+        text-align: center; /* Center-align the text */
+    }
+
+    .header-middle {
+        justify-content: center; /* Center-align icons */
+        margin-top: 10px; /* Add spacing for better visibility */
+    }
+
+    .header-middle i {
+        font-size: 1.5rem; /* Reduce icon size */
+    }
+
+    .header-right {
+        text-align: center; /* Center-align phone number */
+        margin-top: 10px; /* Add margin to separate from icons */
+    }
+
+    .header-right a {
+        font-size: 1.5rem; /* Adjust phone number size */
+        display: block; /* Ensure it stays on one line */
+    }
+
+    .container {
+        flex-direction: column; /* Stack the header elements vertically */
+        align-items: center; /* Center-align all items */
+    }
+}
+
+@media (max-width: 768px) {
+    .header-right {
+        text-align: center; /* Center-align phone number */
+        margin-top: 10px; /* Add margin to separate from icons */
+        width: 100%; /* Make sure it uses full width */
+    }
+
+    .header-right a {
+        font-size: 1.2rem; /* Adjust font size for better fit */
+        white-space: nowrap; /* Prevent the phone number from breaking into two lines */
+        display: inline-block; /* Ensure it stays on one line */
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header-right {
+        text-align: center; /* Center-align phone number */
+        margin-top: 10px; /* Add margin to separate from icons */
+        width: 100%; /* Ensure it uses the full width */
+    }
+
+    .header-right a {
+        font-size: 1.5rem; /* Adjust font size for tablet view */
+        white-space: nowrap; /* Prevent phone number from breaking into two lines */
+        display: inline-block; /* Keep it on a single line */
+    }
+
+    .header-left h1 {
+        font-size: 3rem; /* Adjust header text size for tablets */
+    }
+
+    .header-middle i {
+        font-size: 1.8rem; /* Adjust icon size for better balance */
+    }
+}
+
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column; /* Stack text and image vertically */
+        padding: 20px 10px; /* Reduce padding for smaller screens */
+        text-align: center; /* Center-align text */
+    }
+
+    .hero-content {
+        max-width: 100%; /* Allow full width for text */
+        margin-bottom: 20px; /* Add spacing below the text */
+    }
+
+    .hero-content h1 {
+        font-size: 2rem; /* Reduce heading size */
+        margin-bottom: 10px; /* Reduce space below the heading */
+    }
+
+    .hero-content p {
+        font-size: 1rem; /* Reduce paragraph font size */
+        line-height: 1.4; /* Adjust line spacing */
+    }
+
+    .hero-box {
+        font-size: 0.9rem; /* Reduce font size in the box */
+        padding: 15px; /* Reduce padding */
+        margin-top: 10px; /* Adjust space above the box */
+    }
+
+    .hero-image img {
+        max-width: 90%; /* Scale down image width */
+        margin: 0 auto; /* Center the image */
+        display: block; /* Ensure the image takes a full line */
+        border-radius: 8px; /* Maintain rounded corners */
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-content p {
+        font-size: 1rem; /* Ensure the size is mobile-friendly */
+        line-height: 1.4; /* Adjust line spacing */
+        text-align: center; /* Center-align the paragraph text */
+        margin: 0 auto; /* Center with automatic margins */
+    }
+
+    .hero-box {
+        text-align: center; /* Center-align text inside the box */
+        margin: 0 auto; /* Center the hero box */
+    }
+}
+
+
+@media (max-width: 768px) {
+    .reliable-plumbing {
+        padding: 20px 10px; /* Reduce padding for mobile */
+        text-align: center; /* Center-align all text for better readability */
+    }
+
+    .reliable-plumbing h1 {
+        font-size: 1.8rem; /* Reduce heading size */
+        margin-bottom: 15px; /* Adjust spacing */
+    }
+
+    .service-info {
+        margin-bottom: 20px; /* Add space between each subsection */
+    }
+
+    .service-info h2 {
+        font-size: 1.4rem; /* Reduce subsection heading size */
+        margin-bottom: 10px; /* Adjust spacing */
+    }
+
+    .service-info p {
+        font-size: 1rem; /* Adjust font size for mobile */
+        line-height: 1.4; /* Improve line spacing */
+        margin: 0 auto; /* Center the paragraphs */
+        max-width: 100%; /* Allow full width */
+    }
+
+    .why-choose-us {
+        margin-top: 20px; /* Add spacing for separation */
+    }
+
+    .why-choose-us h2 {
+        font-size: 1.6rem; /* Adjust main heading size */
+        margin-bottom: 15px; /* Adjust spacing */
+    }
+
+    .service-list {
+        padding-left: 0; /* Remove any indent */
+        text-align: left; /* Left-align bullet points for better reading */
+    }
+
+    .service-list li {
+        font-size: 1rem; /* Adjust font size */
+        margin-bottom: 10px; /* Add spacing between items */
+    }
+
+    .service-list li strong {
+        display: block; /* Make the emphasized part stand out on a new line */
+    }
+
+    .why-choose-us p {
+        font-size: 1rem; /* Adjust paragraph font size */
+        line-height: 1.4; /* Improve spacing */
+        text-align: center; /* Center-align for uniformity */
+    }
+}
+
+
+@media (max-width: 768px) {
+    .service-list {
+        display: grid; /* Use grid layout */
+        grid-template-columns: 1fr; /* One column layout */
+        grid-gap: 20px; /* Add space between the boxes */
+    }
+
+    .service-item {
+        width: 100%; /* Full width of the container */
+        max-width: 100%; /* Ensure no overflow */
+        margin: 0 auto; /* Center the items */
+    }
+
+    .service-item h3 {
+        font-size: 1.3rem; /* Adjust heading size */
+    }
+
+    .service-item p {
+        font-size: 1rem; /* Adjust paragraph size */
+        line-height: 1.4; /* Improve readability */
+    }
+
+    .cta-button {
+        width: 90%; /* Ensure button fits within the layout */
+        margin: 15px auto; /* Center the button */
+        font-size: 1rem; /* Adjust font size for mobile */
+    }
+
+    /* Make two columns for tablet view */
+    @media (min-width: 480px) and (max-width: 768px) {
+        .service-list {
+            grid-template-columns: 1fr 1fr; /* Two columns */
+            grid-gap: 15px; /* Add space between columns */
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .service-list {
+        display: grid; /* Use grid layout */
+        grid-template-columns: 1fr; /* Single column for mobile */
+        grid-gap: 5px; /* Increase the gap between service boxes */
+    }
+
+    .service-item {
+        width: 100%; /* Full width */
+        max-width: 100%; /* Prevent overflow */
+        margin: 0 auto; /* Center the boxes */
+    }
+
+    .cta-button {
+        margin: 20px auto; /* Adjust button margin for spacing */
+    }
+}
+@media (max-width: 768px) {
+    .service-list {
+        display: block; /* Use block layout for more control */
+    }
+
+    .service-item {
+        margin-bottom: 30px; /* Add space below each service box */
+        width: 100%; /* Full width */
+        max-width: 100%; /* Prevent overflow */
+    }
+
+    .service-item:last-child {
+        margin-bottom: 0; /* Remove margin from the last item */
+    }
+
+    .cta-button {
+        margin: 20px auto; /* Adjust button margin for spacing */
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .testimonial-wrapper {
+        display: block; /* Ensure testimonials are displayed in block layout */
+        padding: 0 10px; /* Add horizontal padding */
+    }
+
+    .testimonial {
+        width: 100%; /* Full width for each testimonial */
+        margin-bottom: 20px; /* Add space between testimonials */
+        padding: 15px; /* Add internal padding */
+        box-sizing: border-box; /* Include padding in width calculation */
+        border-radius: 8px; /* Rounded corners for aesthetic */
+        background-color: #415a77; /* Consistent background */
+        color: #e0e1dd; /* Ensure readability */
+    }
+
+    .testimonial p {
+        font-size: 1rem; /* Maintain readable font size */
+        line-height: 1.5; /* Improve text spacing */
+        margin-bottom: 10px; /* Space between text and name */
+    }
+
+    .testimonial h4 {
+        font-size: 1.1rem; /* Adjust the name size */
+        margin-top: 10px; /* Add space above the name */
+    }
+
+    .star-rating {
+        text-align: center; /* Center star ratings */
+        margin-top: 10px; /* Add space above the rating */
+    }
+
+}
+.service-item {
+    flex: 1 1 calc(25% - 20px); /* Adjust the width to fit space */
+    max-width: calc(25% - 20px); /* Ensure spacing fits with container */
+    min-width: 250px; /* Maintain readability */
+    box-sizing: border-box; /* Include padding in width */
+    margin: 10px; /* Add margin around each card to create gaps */
+    display: flex;
+    flex-direction: column; /* Vertical layout */
+    justify-content: space-between; /* Ensure even space distribution */
+    padding: 20px; /* Internal padding */
+    background-color: #ffffff; /* Keep background consistent */
+    border-radius: 8px; /* Rounded corners for aesthetics */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: space-between; /* Align items evenly */
+    padding: 0; /* Remove any extra padding */
+}
+
+
+
+@media (max-width: 1024px) {
+    .service-item {
+        flex: 1 1 calc(50% - 20px); /* Two-column layout */
+        max-width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .service-item {
+        flex: 1 1 100%; /* Full width for mobile */
+        max-width: 100%;
+        margin-bottom: 20px; /* Space between items */
+    }
+}
+
+
+@media (max-width: 768px) {
+    .contact-section {
+        padding: 20px 10px; /* Reduce padding for better mobile fit */
+        text-align: center; /* Center-align text */
+    }
+
+    .map {
+        width: 100%; /* Full width for better visibility */
+        margin-bottom: 20px; /* Add space below the map */
+    }
+
+    .map img {
+        width: 100%; /* Ensure the map image fits the container */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 8px; /* Optional: add rounded corners */
+    }
+
+    .contact-details {
+        margin-bottom: 20px; /* Add space below contact details */
+    }
+
+    .contact-details h2 {
+        font-size: 1.5rem; /* Adjust heading size */
+        margin-bottom: 10px; /* Space below heading */
+    }
+
+    .contact-details p {
+        font-size: 1rem; /* Adjust font size for better readability */
+    }
+
+    .service-locations-btn {
+        width: 100%; /* Ensure button fits within mobile screen */
+        margin: 20px auto; /* Center the button */
+        text-align: center; /* Center-align button text */
+    }
+
+    .service-locations-btn .button {
+        width: 80%; /* Adjust button width */
+        max-width: 300px; /* Set a maximum width */
+        padding: 10px 20px; /* Add padding for better touch size */
+        border-radius: 8px; /* Rounded corners */
+    }
+}
+

@@ -1,0 +1,500 @@
+/* Header Section */
+.site-header {
+    background-color: #0d1b2a; /* Dark background to match main site */
+    color: #e0e1dd; /* Light text color */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-left h1 {
+    font-size: 3rem; /* Maintain the original font size */
+    color: #e0e1dd; /* Light text color */
+    font-weight: bold;
+    margin: 0;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+
+.header-middle {
+    display: flex;
+    gap: 15px;
+}
+
+.header-middle i {
+    font-size: 1.8rem; /* Adjust icon size to match */
+    color: #e0e1dd; /* Light icon color */
+}
+
+.header-right .phone-number {
+    background-color: #778da9; /* Light blue background for phone number */
+    color: #e0e1dd; /* Text color inside phone button */
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.header-right .phone-number i {
+    margin-right: 8px;
+    font-size: 1.2rem; /* Icon size within phone button */
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Distribute space between header elements */
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-left {
+    flex: 1; /* Allow the header text to take up more space */
+    text-align: left; /* Align the text to the left */
+}
+
+.header-right {
+    white-space: nowrap; /* Prevent phone number from breaking */
+    flex-shrink: 0; /* Prevent the phone section from shrinking */
+    margin-left: 20px; /* Add space between the header text and phone number */
+}
+
+.header-right .phone-number {
+    font-size: 1.5rem; /* Ensure the phone number size is consistent */
+    display: inline-block; /* Make sure it stays inline */
+    text-align: center;
+}
+
+/* Hover effects */
+.header-middle i:hover,
+.header-right .phone-number:hover {
+    color: #415a77;
+}
+
+.header-right .phone-number:hover {
+    background-color: #415a77; /* Darker blue for hover effect */
+}
+
+
+
+/* General Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+  }
+   /* Header Section */
+  
+ 
+
+
+
+
+
+/* Main Container */
+.container {
+    width: 90%;
+    max-width: 800px; /* Limit the width for easier readability */
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+/* Leak Repairs Section */
+.leak-repairs-section {
+    background-color: #f7f9fc; /* Light background for readability */
+    padding: 40px 20px;
+    color: #1b263b;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Section Headings */
+.leak-repairs-section h2 {
+    font-size: 2.5rem;
+    color: #415a77;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.leak-repairs-section h3 {
+    font-size: 1.8rem;
+    color: #1b263b;
+    margin-top: 30px;
+    font-weight: bold;
+    border-left: 4px solid #415a77;
+    padding-left: 15px;
+}
+
+/* Paragraph and List Styling */
+.leak-repairs-section p {
+    font-size: 1.2rem;
+    color: #415a77;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.leak-repairs-benefits {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 20px 0;
+}
+
+.leak-repairs-benefits li {
+    font-size: 1.1rem;
+    color: #415a77;
+    margin-bottom: 15px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.leak-repairs-benefits li::before {
+    content: "✔"; /* Checkmark for list items */
+    color: #1b263b;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+/* Call-to-Action Button */
+/* Centering the button */
+.container { /* or the specific class that wraps the button */
+    text-align: center;
+}
+
+.cta-button {
+    display: inline-block; /* Ensures the button respects centering */
+    background-color: #415a77;
+    color: #e0e1dd;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #778da9;
+}
+
+
+/* Dividers Between Sections */
+.section-divider {
+    width: 100%;
+    height: 2px;
+    background-color: #415a77;
+    margin: 30px 0;
+}
+
+/* FAQ Styling */
+.faq-question {
+    font-size: 1.6rem;
+    color: #1b263b;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.faq-answer {
+    font-size: 1.1rem;
+    color: #415a77;
+    margin-left: 20px;
+}
+
+/* Responsive Design for Mobile Screens */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .leak-repairs-section h2 {
+        font-size: 2.2rem;
+    }
+
+    .leak-repairs-section h3 {
+        font-size: 1.6rem;
+    }
+
+    .leak-repairs-section p,
+    .leak-repairs-benefits li {
+        font-size: 1.1rem;
+    }
+
+    .cta-button {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
+ /* Footer */
+ footer {
+    background-color: #0d1b2a; /* Dark footer background */
+    color: #e0e1dd; /* Light text */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #e0e1dd;
+    text-decoration: none;
+    padding: 0 10px;
+  }
+  
+  footer a:hover {
+    color: #778da9;
+  }
+   /* Buttons and Links */
+   .button,
+   a {
+     background-color: #778da9; /* Button background */
+     color: #e0e1dd; /* Button text color */
+     padding: 10px 20px;
+     border: none;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 10px;
+     cursor: pointer;
+   }
+   
+   .button:hover,
+   a:hover {
+     background-color: #415a77; /* Hover effect on buttons */
+   }
+   /* Footer Section */
+  .site-footer {
+    background-color: #0d1b2a; /* Dark background for footer */
+    color: #e0e1dd; /* Light text */
+    padding: 40px 0;
+    border-top: 2px solid #778da9; /* Top border for separation */
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.site-footer p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #e0e1dd;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.footer-links a {
+    color: #e0e1dd; /* Light text for links */
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #778da9; /* Lighter hover color */
+}
+
+.footer-contact a {
+    color: #e0e1dd; /* Light text color that matches the rest of the footer */
+    text-decoration: none; /* Optional: Remove underline if not needed */
+}
+
+.footer-contact a:hover {
+    color: #778da9; /* Lighter color for hover state */
+}
+
+.footer-social a {
+    color: #e0e1dd;
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+.footer-social a:hover {
+    color: #778da9; /* Hover effect for social icons */
+}
+
+@media (max-width: 768px) {
+    .footer-links li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+
+/* Responsive Design for Mobile Screens */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center the items */
+        text-align: center; /* Center text */
+    }
+
+    .header-left h1 {
+        font-size: 2.5rem; /* Slightly reduce the size for mobile */
+        margin-bottom: 10px; /* Add space below the title */
+    }
+
+    .header-middle {
+        margin-bottom: 10px; /* Add space below the social media icons */
+    }
+
+    .header-middle i {
+        font-size: 1.8rem; /* Adjust icon size for mobile */
+    }
+
+    .header-right {
+        margin-top: 10px; /* Add space above the phone number */
+    }
+
+    .header-right a {
+        font-size: 1.5rem; /* Adjust the phone number size slightly for mobile */
+    }
+}
+
+/* General Styles for Mobile Devices */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    /* Adjust heading font sizes */
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+
+    .faq-question {
+        font-size: 1.3rem;
+        margin-top: 15px;
+    }
+
+    p,
+    .faq-answer,
+    .leak-repairs-benefits li {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    /* Center the Call-to-Action Button */
+    .cta-button {
+        font-size: 1rem;
+        padding: 10px 20px;
+        width: 100%;
+        max-width: 300px;
+        margin: 20px auto;
+        display: block;
+        text-align: center;
+    }
+
+    /* List Styling */
+    .leak-repairs-benefits {
+        padding-left: 20px;
+        margin: 20px 0;
+    }
+
+    /* Adjust margin and padding for headings */
+    h2, h3, .faq-question {
+        padding-left: 0;
+    }
+}
+
+/* Responsive Layout for Extra Small Devices */
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3,
+    .faq-question {
+        font-size: 1.3rem;
+    }
+
+    p,
+    .faq-answer,
+    .leak-repairs-benefits li {
+        font-size: 0.9rem;
+    }
+}
+
+.header-link {
+    color: inherit; /* Keeps the original color */
+    text-decoration: none; /* Removes any underline */
+    outline: none; /* Removes the blue focus box */
+}
+
+.header-link:focus {
+    outline: none; /* Ensures no outline when the link is focused */
+}
+
+.header-link:hover {
+    color: #cfd2d6; /* Slightly lighter grey for hover effect */
+}
+
+.header-link h1 {
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+.header-left .home-link {
+    color: #e0e1dd; /* Matches the header text color */
+    text-decoration: none; /* Removes underline */
+    font-size: 3rem; /* Matches the original font size */
+    font-weight: bold; /* Matches original font weight */
+    border: none; /* Removes any border */
+    padding: 0; /* Removes padding */
+    background: none; /* Removes any background color */
+    display: inline; /* Ensures it behaves like regular text */
+}
+
+.header-left .home-link:hover,
+.header-left .home-link:focus {
+    color: #e0e1dd; /* Keeps color the same on hover and focus */
+    background: none; /* Ensures no background on hover or focus */
+    outline: none; /* Removes any focus outline */
+}
+
+/* Scale Animation */
+.header-left .home-link {
+    color: #e0e1dd; /* Original text color */
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bold;
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth animation */
+}
+
+.header-left .home-link:hover {
+    transform: scale(1.05); /* Scales up the text slightly */
+    color: #778da9; /* Changes color on hover */
+}
